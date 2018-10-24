@@ -2,7 +2,7 @@
 
 Just use it:
 ```javascript
-$.fn.cssRemove = function(attr) {
+$.fn.css.remove = function(attr) {
   var bodyStyle = this.get(0).style;
   if (bodyStyle.removeAttribute)
       bodyStyle.removeAttribute(attr);
@@ -14,5 +14,5 @@ $.fn.cssRemove = function(attr) {
 
 Usage:
 ```javascript
-$(document.body).cssRemove("cursor"); // For example...
+$(document.body).css.remove("cursor"); // For example...
 ```
