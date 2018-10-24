@@ -1,7 +1,7 @@
 # remove-css-style-with-jquery
 
 Remove css style applied in an element using jQuery.
-It will remove the attribute style of element targeted.
+It will remove the style attribute of the element targeted.
 
 Just use it:
 ```javascript
